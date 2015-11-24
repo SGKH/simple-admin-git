@@ -15,7 +15,7 @@ class SimpleAdminController extends Controller {
     public function index()
     {
         $users = User::all();
-        return "hello";
+        return "hallokes";
         //return view('simpleAdminGit::admin')->with('users', $users);
     }
 }
